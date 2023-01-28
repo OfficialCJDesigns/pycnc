@@ -8,7 +8,7 @@ class Server:
         # Create a socket
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # Bind the socket to a specific address and port
-        sock.bind(("0.0.0.0", 12345))
+        sock.bind(("0.0.0.0", 6969))
         # Start listening for incoming connections
         sock.listen(5)
 
